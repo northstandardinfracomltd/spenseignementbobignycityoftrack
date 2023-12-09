@@ -235,9 +235,26 @@ label {
             grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
             grid-gap: 20px; /* Espacement entre les colonnes */
             padding: 20px;
+          max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
         }
 
+
+  @media (min-width: 100px) and (max-width: 900px) {
+        
+        .container {
+            display: block;
+            grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+            grid-gap: 20px; /* Espacement entre les colonnes */
+            padding: 20px;
+        }
+      }
+
         .column {
+                   margin-left: 10px !important;
+           width: 96% !important;
+   margin-right: 10px !important;
             border: 1px solid #ccc;
             padding: 0px;
           background: #fff;
@@ -245,13 +262,33 @@ label {
               box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(188 188 188 / 4%), 0px -18px 10.9766px rgb(189 189 189 / 5%), 0px 14px 20.5812px rgb(203 203 203 / 6%), 0px 12px 41.1623px rgb(163 163 163 / 7%), -20px 0px 89.1851px rgb(255 255 255 / 9%);
         }
 
+  @media (min-width: 100px) and (max-width: 1000px) {
+        
+        .column2 {
+           margin-left: 10px !important;
+   margin-right: 10px !important;
+    width: 96% !important;
+    }
+      }
+
+
+
+  @media (min-width: 100px) and (max-width: 1000px) {
+        
+        .column {
+           margin-left: 10px !important;
+   margin-right: 10px !important;
+    width: 96% !important;
+          margin-bottom: 20px;
+    }
+      }
 
     .column2 {
             border: 1px solid #ccc;
             padding: 0px;
           background: #fff;
           border-radius: 12px;
-      width: 100%;
+      width: 97%;
       max-width: 1200px;
       margin-left: auto;
       margin-right: auto;
