@@ -145,10 +145,13 @@ h2 {
   color: #131212;
   margin-top: 70px;
   line-height: 45px;
-  font-size: 24px !important;
+  font-size: 27px !important;
   font-weight: 200;
 }
 
+iframe {
+  border-radius: 12px;
+}
 label {
   color: #131212;
   margin-top: 0px;
@@ -160,7 +163,7 @@ label {
 }
 
 .txt2 {
-  color: #131212;
+  color: #db3136;
   margin-top: 0px;
   line-height: 45px;
   margin-bottom: -40px !important;
@@ -185,7 +188,7 @@ label {
 }
 
 .txt5 {
-  color: #3d6dff !important;
+  color: #97b1ff !important;
   font-weight: 200;
 }
 
