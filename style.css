@@ -193,3 +193,17 @@ h2 {
 .fileopener:hover {
   border-bottom:3px solid var(--color-secondary);
 }
+
+
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+            grid-gap: 20px; /* Espacement entre les colonnes */
+            padding: 20px;
+        }
+
+        .column {
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
