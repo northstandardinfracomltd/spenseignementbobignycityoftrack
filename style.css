@@ -84,7 +84,7 @@ END Glitch hello-app default styles
 
 body {
   font-family: HK Grotesk;
-  background-color: #fbfbfb;
+  background-color: #fff !important;
   margin: 0px !important;
   padding: 0px !important;
   
@@ -143,9 +143,16 @@ input {
 /* Subheading */
 h2 {
   color: #131212;
-  font-size: 22px;
-  margin-top: 55px;
-  line-height: 40px;
+  margin-top: 70px;
+  line-height: 45px;
+  font-size: 24px !important;
+}
+
+label {
+  color: #131212;
+  margin-top: 0px;
+  line-height: 45px;
+  font-size: 16px !important;
 }
 
 /* Interactive image */
@@ -266,23 +273,55 @@ h2 {
 
 
 
+
         .container2 {
             text-align: center;
             font-family: 'senseistandard2';
         }
 
-        input {
-            padding: 10px;
-            margin: 10px;
-            font-family: 'senseistandard2';
+      .imglogo {
+           width: 100%;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        margin-bottom: -20px;
         }
 
+        input {
+    padding: 9px 15px 11px 16px;
+            margin: 0px;
+            font-family: 'senseistandard2';
+           width: 100%;
+          max-width: 215px;
+              border-radius: 12px;
+          border: 1px solid #e0dbdb;
+              font-size: 16px;
+          margin-left: -5px;
+          margin-bottom: 8px;
+          margin-top: 15px;
+             transition: 0s;
+text-align: center;
+        }
+
+       input:hover {
+     box-shadow: 0 0 0px 4px #008eff38;
+   transition: 0s;
+        }
+
+   input:focus {
+     box-shadow: 0 0 0px 4px #008eff38;
+   transition: 0s;
+        }
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
         button {
-          
-          
+        
           background-color: #db3136;
     color: #333;
-    padding: 8px 16px;
     border: none;
     border-radius: 12px;
     cursor: pointer;
@@ -299,4 +338,18 @@ h2 {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
+          width: 100%;
+          max-width: 215px;
+        }
+
+
+
+       button:hover {
+     box-shadow: 0 0 0px 4px #008eff38;
+   transition: 0s;
+        }
+
+   button:focus {
+     box-shadow: 0 0 0px 4px #008eff38;
+   transition: 0s;
         }
