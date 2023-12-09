@@ -85,9 +85,6 @@ to this section's matching END comment to see page-specific styles.
 }
 
 
-iframe {
-  margin-top:-53px !important;
-}
 
 
 .footer a:not(.btn--remix):link,
@@ -214,7 +211,7 @@ h2 {
 
         .column {
             border: 1px solid #ccc;
-            padding: 20px;
+            padding: 0px;
           background: #fff;
           border-radius: 12px;
           
@@ -223,7 +220,7 @@ h2 {
 
     .column2 {
             border: 1px solid #ccc;
-            padding: 20px;
+            padding: 0px;
           background: #fff;
           border-radius: 12px;
       width: 100%;
@@ -245,39 +242,55 @@ h2 {
     header {
       position: sticky;
       top: 0;
-      background-color: #333;
+      background-color: #fff;
       color: #fff;
       display: grid;
       grid-template-columns: auto 1fr;
       align-items: center;
       padding: 10px;
+      border-bottom: 1px solid #e0dbdb;
+      box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(188 188 188 / 4%), 0px -18px 10.9766px rgb(189 189 189 / 5%), 0px 14px 20.5812px rgb(203 203 203 / 6%), 0px 12px 41.1623px rgb(163 163 163 / 7%), -20px 0px 89.1851px rgb(255 255 255 / 9%);
     }
 
     header img {
-      max-width: 100%;
+     width: 100%;
+      max-width: 200px;
       height: auto;
       display: block;
     }
 
     .btn-en-savoir-plus {
-      background-color: #fff;
+      background-color: #db3136;
       color: #333;
       padding: 8px 16px;
       border: none;
-      border-radius: 4px;
+      border-radius: 12px;
       cursor: pointer;
       text-decoration: none;
       text-align: center;
+      font-size: 18px;
+      color: #fff;
+      margin-left: auto;
+      font-family: 'senseistandard2';
     }
+
+    @font-face {
+        font-family: senseistandard2;
+        src: url("https://cdn.glitch.global/db00b4f2-c5a9-4a16-86f0-60cb4fe5b4d1/sensei-standard.otf?v=1697967695752")
+          format("opentype");
+      }
+
 
 
         .container2 {
             text-align: center;
+            font-family: 'senseistandard2';
         }
 
         input {
             padding: 10px;
             margin: 10px;
+            font-family: 'senseistandard2';
         }
 
         button {
@@ -287,4 +300,5 @@ h2 {
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            font-family: 'senseistandard2';
         }
