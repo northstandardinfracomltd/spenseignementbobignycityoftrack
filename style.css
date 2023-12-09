@@ -112,7 +112,10 @@ END Glitch hello-app default styles
 
 body {
   font-family: HK Grotesk;
-  background-color: var(--color-bg);
+  background-color: #fbfbfb;
+  margin: 0px !important;
+  padding: 0px !important;
+  
 }
 
 /* Page structure */
@@ -206,4 +209,28 @@ h2 {
         .column {
             border: 1px solid #ccc;
             padding: 20px;
+          background: #fff;
+          border-radius: 12px;
+          
+        }
+
+
+
+
+        .container2 {
+            text-align: center;
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
         }
