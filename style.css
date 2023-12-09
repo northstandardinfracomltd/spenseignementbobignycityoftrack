@@ -151,6 +151,7 @@ h2 {
 
 iframe {
   border-radius: 12px;
+  margin-bottom: -5px;
 }
 label {
   color: #131212;
@@ -192,6 +193,16 @@ label {
   font-weight: 200;
 }
 
+.txt6 {
+  color: #c0c0c0;
+  margin-top: 30px;
+  line-height: 45px;
+  margin-bottom: 20px !important;
+  font-size: 16px !important;
+  margin-left: -10px;
+  font-weight: 200;
+  text-align: center;
+}
 
 /* Interactive image */
 .illustration:active {
@@ -231,7 +242,7 @@ label {
             padding: 0px;
           background: #fff;
           border-radius: 12px;
-          
+              box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(188 188 188 / 4%), 0px -18px 10.9766px rgb(189 189 189 / 5%), 0px 14px 20.5812px rgb(203 203 203 / 6%), 0px 12px 41.1623px rgb(163 163 163 / 7%), -20px 0px 89.1851px rgb(255 255 255 / 9%);
         }
 
 
@@ -246,7 +257,7 @@ label {
       margin-right: auto;
       margin-top: 50px;
       margin-bottom: 20px;
-          
+              box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(188 188 188 / 4%), 0px -18px 10.9766px rgb(189 189 189 / 5%), 0px 14px 20.5812px rgb(203 203 203 / 6%), 0px 12px 41.1623px rgb(163 163 163 / 7%), -20px 0px 89.1851px rgb(255 255 255 / 9%);
         }
 
 
