@@ -84,6 +84,12 @@ to this section's matching END comment to see page-specific styles.
   border-top: 4px solid #fff;
 }
 
+
+iframe {
+  margin-top:-53px !important;
+}
+
+
 .footer a:not(.btn--remix):link,
 a:not(.btn--remix):visited {
   font-family: HK Grotesk;
@@ -215,6 +221,54 @@ h2 {
         }
 
 
+    .column2 {
+            border: 1px solid #ccc;
+            padding: 20px;
+          background: #fff;
+          border-radius: 12px;
+      width: 100%;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      margin-bottom: 20px;
+          
+        }
+
+
+.zc-reportoptionheader {
+           display: none !important;
+          
+        }
+
+
+    header {
+      position: sticky;
+      top: 0;
+      background-color: #333;
+      color: #fff;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      padding: 10px;
+    }
+
+    header img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .btn-en-savoir-plus {
+      background-color: #fff;
+      color: #333;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+    }
 
 
         .container2 {
