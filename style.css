@@ -450,14 +450,15 @@ input:focus, textarea:focus, select:focus {
   z-index: 2147483645;
   box-sizing: border-box;
   width: 100%;
-
-  background-color: #F1F6F4;
+  border-top: 1px solid #e0dbdb;
+box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(188 188 188 / 4%), 0px -18px 10.9766px rgb(189 189 189 / 5%), 0px 14px 20.5812px rgb(203 203 203 / 6%), 0px 12px 41.1623px rgb(163 163 163 / 7%), -20px 0px 89.1851px rgb(255 255 255 / 9%);
+  background-color: #f6f6f6;
 }
 
 .cookie-consent-banner__inner {     
   max-width: 960px;
   margin: 0 auto;
-  padding: 32px 0;
+  padding: 32px 15px;
 }
 
 .cookie-consent-banner__copy { 
@@ -465,6 +466,8 @@ input:focus, textarea:focus, select:focus {
 }
 
 .cookie-consent-banner__actions {    
+  display: flex;
+  text
 }
 
 .cookie-consent-banner__header {
@@ -474,55 +477,94 @@ input:focus, textarea:focus, select:focus {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+  color: #151414;
+  font-weight: 200;
 }
 
 .cookie-consent-banner__description {
   font-family: "senseistandard2", sans-serif, arial;
   font-weight: normal;
-  color: #838F93;
+  color: #888888;
   font-size: 16px;
   line-height: 24px;
+  font-weight: 200;
+  margin-bottom: 21px;
 }
 
 .cookie-consent-banner__cta {
+  background-color: #db3136;
+    color: #333;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    padding: 9px 15px 11px 16px;
+    color: #fff !important;
+    margin-left: auto;
+    font-family: 'senseistandard2';
+    cursor: pointer;
+    text-transform: none !important;
+    transition: 0s;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 100%;
+    max-width: 85px !important;
+    font-weight: 200;
+  
+  
+  
   box-sizing: border-box;
   display: inline-block;
   min-width: 164px;
-  padding: 11px 13px;
-    
-  border-radius: 2px;
-  
-  background-color: #2CE080;
-   
-  color: #FFF;
+       
   text-decoration: none;
-  text-align: center;
-  font-family: "senseistandard2", sans-serif, arial;
-  font-weight: normal;
-  font-size: 16px;
   line-height: 20px;
+  font-weight: 200;
 }
 
 .cookie-consent-banner__cta--secondary { 
-  padding: 9px 13px;
+  background-color: #141313;
+    color: #333;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    padding: 9px 15px 11px 16px;
+    color: #fff !important;
+    margin-left: auto;
+    font-family: 'senseistandard2';
+    cursor: pointer;
+    text-transform: none !important;
+    transition: 0s;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 100%;
+    max-width: 85px !important;
+    font-weight: 200;
   
-  border: 2px solid #3A4649;
   
-  background-color: transparent;
   
-  color: #2CE080;
+  box-sizing: border-box;
+  display: inline-block;
+  min-width: 164px;
+       
+  text-decoration: none;
+  line-height: 20px;
+  font-weight: 200;
 }
 
 .cookie-consent-banner__cta:hover {
-  background-color: #20BA68;
+     box-shadow: 0 0 0px 4px #008eff38;
+    transition: 0s;
 }
 
 .cookie-consent-banner__cta--secondary:hover {
-  border-color: #838F93;
-    
-  background-color: transparent;
-  
-  color: #22C870;
+      box-shadow: 0 0 0px 4px #008eff38;
+    transition: 0s;
 }
 
 .cookie-consent-banner__cta:last-child {
