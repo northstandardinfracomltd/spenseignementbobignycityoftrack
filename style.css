@@ -84,7 +84,7 @@ END Glitch hello-app default styles
 
 body {
   font-family: HK Grotesk;
-  background-color: #fff !important;
+  background-color: #f6f6f6 !important;
   margin: 0px !important;
   padding: 0px !important;
   
@@ -145,6 +145,16 @@ input {
           format("opentype");
       }
 
+
+button:hover {
+    transform: scale(1.03);
+    transition-duration: 0s;
+}
+
+input:hover {
+    transform: scale(1.03);
+    transition-duration: 0s;
+}
 /* Subheading */
 h2 {
   margin-top: 70px;
@@ -157,7 +167,7 @@ h2 {
 }
 
 
-.imglogo:hover {
+h2:hover {
     transform: scale(1.03);
     transition-duration: 0.5s;
 }
@@ -200,7 +210,7 @@ label {
   color: #3d6dff !important;
   font-weight: 200;
   text-decoration: underline;
-   cursor: default;
+   cursor: pointer;
 }
 
 .txt4 {
@@ -218,7 +228,7 @@ label {
   color: #97b1ff !important;
   font-weight: 200;
    text-decoration: underline;
-   cursor: default;
+   cursor: pointer;
 }
 
 .txt6 {
@@ -290,6 +300,17 @@ label {
           border-radius: 12px;
               box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(188 188 188 / 4%), 0px -18px 10.9766px rgb(189 189 189 / 5%), 0px 14px 20.5812px rgb(203 203 203 / 6%), 0px 12px 41.1623px rgb(163 163 163 / 7%), -20px 0px 89.1851px rgb(255 255 255 / 9%);
         }
+
+
+.column:hover {
+    transform: scale(1.01);
+    transition-duration: 0.4s;
+}
+
+.column2:hover {
+    transform: scale(1.01);
+    transition-duration: 0.4s;
+}
 
   @media (min-width: 100px) and (max-width: 1000px) {
         
@@ -593,11 +614,15 @@ box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(1
 .cookie-consent-banner__cta:hover {
      box-shadow: 0 0 0px 4px #008eff38;
     transition: 0s;
+    transform: scale(1.03);
+    transition-duration: 0s;
 }
 
 .cookie-consent-banner__cta--secondary:hover {
       box-shadow: 0 0 0px 4px #008eff38;
     transition: 0s;
+    transform: scale(1.03);
+    transition-duration: 0s;
 }
 
 .cookie-consent-banner__cta:last-child {
@@ -641,7 +666,12 @@ box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(1
        .btnlogout:hover {
      box-shadow: 0 0 0px 4px #008eff38;
    transition: 0s;
+           transform: scale(1.03);
+    transition-duration: 0s;
         }
+
+
+
 
    .btnlogout:focus {
      box-shadow: 0 0 0px 4px #008eff38;
