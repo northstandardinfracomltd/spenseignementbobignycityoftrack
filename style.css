@@ -383,7 +383,7 @@ label {
               border-radius: 12px;
           border: 1px solid #e0dbdb;
               font-size: 16px;
-          margin-left: -5px;
+          margin-left: -4px;
           margin-bottom: 8px;
           margin-top: 15px;
              transition: 0s;
@@ -466,8 +466,6 @@ box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(1
 }
 
 .cookie-consent-banner__actions {    
-  display: flex;
-  text
 }
 
 .cookie-consent-banner__header {
@@ -508,16 +506,15 @@ box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(1
     transition: 0s;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-right: 5px;
+    margin-right: auto;
     width: 100%;
-    max-width: 85px !important;
+    max-width: 130px !important;
     font-weight: 200;
   
   
   
   box-sizing: border-box;
   display: inline-block;
-  min-width: 164px;
        
   text-decoration: none;
   line-height: 20px;
@@ -541,16 +538,15 @@ box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(1
     transition: 0s;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-right: 5px;
+    margin-right: auto;
     width: 100%;
-    max-width: 85px !important;
+    max-width: 130px !important;
     font-weight: 200;
   
   
   
   box-sizing: border-box;
   display: inline-block;
-  min-width: 164px;
        
   text-decoration: none;
   line-height: 20px;
@@ -570,3 +566,47 @@ box-shadow: 20px -1px 2.74416px rgb(185 185 185 / 3%), -2px 11px 5.48831px rgb(1
 .cookie-consent-banner__cta:last-child {
   margin-left: 16px;
 }
+
+
+
+
+
+
+
+
+        .btnlogout {
+        
+          background-color: #db3136;
+    color: #333;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 9px 15px 11px 16px;
+    color: #fff !important;
+    margin-left: auto;
+    font-family: 'senseistandard2';
+    cursor: pointer;
+    text-transform: none !important;
+    transition: 0s;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+          width: 100%;
+          max-width: 215px;
+          font-weight: 200;
+        }
+
+
+
+       .btnlogout:hover {
+     box-shadow: 0 0 0px 4px #008eff38;
+   transition: 0s;
+        }
+
+   .btnlogout:focus {
+     box-shadow: 0 0 0px 4px #008eff38;
+   transition: 0s;
+        }
