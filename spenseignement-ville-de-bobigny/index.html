@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
+
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,24 +10,14 @@
       href="https://cdn.glitch.global/b256ee8b-c96f-479f-b59d-29c598f49730/65806ce0-d212-4e21-88ea-b0d3e1a1a82f.png?v=1702164374570"
     />
 
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
+ 
     <title>SP Enseignement / Ville de Bobigny</title>
-    <!-- The website stylesheet -->
     <link rel="stylesheet" href="/style.css" />
 
-    <!-- The website JavaScript file -->
     <script src="/script.js" defer></script>
   </head>
   <body>
-    <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    --><div class="container2">
+   <div class="container2">
   
         <img class="imglogo" src="https://cdn.glitch.global/b256ee8b-c96f-479f-b59d-29c598f49730/Logo%20SP.png?v=1702202549693" alt="Logo">
 
@@ -57,13 +44,11 @@
     
 <div class="container">
     <div class="column">
-        <!-- Contenu de la première colonne -->
             <p class="txt6">Carte interactive de vos défibrillateurs</p>
       <iframe height='570px' width='100%' frameborder='0' allowTransparency='true' scrolling='auto' src='https://creatorapp.zohopublic.eu/saasduo-saas-platform/spilot/report-embed/Map_Ville_de_Bobigny/gbVubw2yHA6zq9VT9fUwztwsqGYHUff85J3QurHueS1YFO0YjsUpbjfRZUWEhtVEY2GuQ0p0C1UfT1df5k3Xdmj4TDQWY72G4Qhw'></iframe>
 
     </div>
     <div class="column">
-        <!-- Contenu de la deuxième colonne -->
             <p class="txt6">Envoyer une demande ou signaler un problème</p>
 
       
@@ -87,7 +72,15 @@
   <br><br>  <br><br>
 </div>
 
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
+    <script>
+    function supprimerDiv() {
+        var divASupprimer = document.querySelector('.cookie-consent-banner');
+
+        if (divASupprimer) {
+            divASupprimer.remove();
+        }
+    }
+</script>
     
 <div class="cookie-consent-banner">
   <div class="cookie-consent-banner__inner">
